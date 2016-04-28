@@ -4,11 +4,19 @@
 <meta charset="utf-8">
 <title>Pain then Glory</title>
 <link rel="stylesheet" type="text/css" href="pain.css">
+<script src="javascript.js" type="text/javascript">
+</script>
 </head>
 
 <body>
+<script src="js/java.js" type="text/javascript">
+</script>
 	  <div id="header">
       <img src="white.png" />
+      <input type="button" onclick="a_message();" value="Login" />
+     
+      
+      
       </div>
       <nav>
 				<ul>
@@ -22,10 +30,20 @@
 	    <div id="imageContainer">
 	      <img id="mainImage" src="wallpaper.png"/>
 	    </div>
-	   
 	  </div>
 	  <div id="sideContentWrapper">
 	  <div id="sideContent">
+      <h3>Have you lifted today?</h3>
+<label>
+	<input type="radio" name="fav_color3" value="Yes" onclick="analyzeColor3(this.value);"> Yes
+</label>
+<label>
+	<input type="radio" name="fav_color3" value="No" onclick="analyzeColor3(this.value);"> No
+</label>
+<label>
+	<input type="radio" name="fav_color3" value="Maybe" onclick="analyzeColor3(this.value);"> Maybe...? 
+</label>
+<br />
 	    <a class="twitter-timeline" href="https://twitter.com/pain_then_glory" data-widget-id="722785857942335489">Tweets by @pain_then_glory</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	  </div>
