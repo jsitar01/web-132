@@ -188,7 +188,7 @@ nav li a {
 }
 
 
-@media screen and (max-width:676px) and (max-device-width:676px){
+@media only screen and (max-width:676px), only screen and (max-device-width: 676px){
 
 #header input{
 	float: right;
